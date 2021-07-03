@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sounds Nodes</title>
+    <style>
+        #done{
+            display: block;
+            background-color:teal;
+            position: absolute;
+            padding: 10px;
+        }
+
+        #custom{
+            position: absolute;
+            margin-left: 80px;
+            padding: 10px;
+            background-color: darkturquoise;
+        }
+
+        #holder{
+            position: absolute;
+            margin-left: 180px;
+            color: indigo;
+        }
+    </style>
+</head>
+<body>
+    <button id="done">DONE</button>
+    <select id="custom">
+        <option value="a">drum#1</option>
+        <option value="b">drum#2</option>
+        <option value="c">drum#3</option>
+        <option value="d">guitar#4</option>
+        <option value="e">guitar#5</option>
+        <option value="f">guitar#6</option>
+        <option value="g">piano#7</option>
+        <option value="h">piano#8</option>
+        <option value="i">piano#9</option>
+    </select>
+    <div id="holder">
+    Ball Speed : <input type="text" id="speed" placeholder="1 - 10">
+    </div>
+    <canvas id="canvas"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
